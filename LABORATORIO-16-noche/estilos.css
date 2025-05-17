@@ -1,0 +1,80 @@
+body {
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.galeria{
+    width: 200PX;
+    height: 170PX;
+    margin: 10px ;
+}
+#Grande{
+    width: 200PX;
+    height: 170PX;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.formulario {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    background-color: #a6b4c1;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #333;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"],
+.formulario input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #69a7e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #557bbf;
+}
+
+#ver-imagen {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
